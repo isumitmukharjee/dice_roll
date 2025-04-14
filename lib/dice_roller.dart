@@ -1,3 +1,4 @@
+import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'dart:math';
 
@@ -13,10 +14,13 @@ class DiceRoller extends StatefulWidget {
 
 class _DiceRollerState extends State<DiceRoller> {
   var currentDiceRoll = 2;
+  final AudioPlayer _audioPlayer = AudioPlayer();
   void rollDice() {
     setState(() {
       currentDiceRoll = randomizer.nextInt(6) + 1;
     });
+_audioPlayer.play(AssetSource('sound/dice-142528.mp3'));
+
   }
 
   @override

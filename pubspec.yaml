@@ -34,6 +34,7 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+  audioplayers: ^6.4.0
 
 dev_dependencies:
   flutter_test:
@@ -64,6 +65,7 @@ flutter:
      - assets/images/dice-4.png
      - assets/images/dice-5.png
      - assets/images/dice-6.png
+     - assets/sound/dice-142528.mp3
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
