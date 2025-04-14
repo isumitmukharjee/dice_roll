@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 
 class TextContainer extends StatelessWidget {
-   const TextContainer(this.outputText, {super.key});
+  const TextContainer(this.outputText, {super.key});
 
   final String outputText;
 
@@ -10,9 +10,7 @@ class TextContainer extends StatelessWidget {
   Widget build(context) {
     return Text(
       outputText,
-      style: TextStyle(
-        color: Colors.white, 
-      fontSize: 28),
+      style: TextStyle(color: Colors.white, fontSize: 28),
     );
   }
 }
