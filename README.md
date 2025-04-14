@@ -1,16 +1,37 @@
-# first_dice_app
+# 🎲 First Dice Flutter App
 
-A new Flutter project.
+A simple dice-rolling app built using **Flutter**, marking my return to coding after 1.8 years of inactivity! This project helped me understand key Flutter concepts and reignited my developer journey.
 
-## Getting Started
+## 🚀 Features
 
-This project is a starting point for a Flutter application.
+- 🎲 Tap the button to roll a dice (shows a random number from 1–6)
+- 🎨 Smooth gradient background using `LinearGradient`
+- 🧱 Stateless and Stateful widgets used together
+- 📦 Asset image loading for dice visuals
 
-A few resources to get you started if this is your first Flutter project:
+## 📚 What I Learned
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Basics of **Flutter** and **Dart** programming
+- Difference between `StatelessWidget` and `StatefulWidget`
+- Using `setState()` to update UI on user interaction
+- Image handling using `Image.asset`
+- Creating reusable UI components (`GradientContainer`, `DiceRoller`, `TextContainer`)
+- Using layout widgets like `Column`, `Center`, `SizedBox`
+- Working with gradients and colors in Flutter
+- File & folder structuring in a Flutter project
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠 Tech Stack
+
+- **Flutter**
+- **Dart**
+- VS Code
+
+## 📷 Preview
+
+<img src="assets/images/dice-preview.png" alt="Dice Screenshot" width="400"/>
+
+## 🧪 To Run Locally
+
+```bash
+flutter pub get
+flutter run
